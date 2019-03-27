@@ -1,0 +1,8 @@
+package org.drools.samples
+
+rule "default"
+	@sampleMetadata(this is the metadata)
+when
+then
+	System.out.println("This is the default rule");
+end
